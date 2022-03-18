@@ -1,6 +1,6 @@
 {
-	"name": "image-uploader",
-	"version": "0.0.1",
+	"name": "sveltekit-b2-image-upload",
+	"version": "1.0.0",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
