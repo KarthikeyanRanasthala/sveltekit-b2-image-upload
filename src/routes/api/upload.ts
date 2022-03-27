@@ -21,11 +21,11 @@ export const post: RequestHandler = async ({ request }) => {
 
 	const command = new PutObjectCommand({
 		Bucket: process.env.B2_BUCKET,
-		Key: `${nanoid()}${path.extname(body.fileName)}`
+		Key: `image-uploads/${nanoid()}${path.extname(body.fileName)}`
 	});
 
 	const signedUrl = await getSignedUrl(client, command, {
-		expiresIn: 300
+		expiresIn: 10
 	});
 
 	return {
