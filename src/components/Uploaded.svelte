@@ -20,7 +20,7 @@
 
 <h1 class="text-[#4F4F4F]">Uploaded Successfully!</h1>
 <div class="flex justify-center mt-[26px]">
-	<img src={imgUrl} class="h-[224px] rounded-[12px]" alt="" />
+	<img src={imgUrl} class="h-[224px] rounded-[12px] object-contain" alt="" />
 </div>
 <div class="flex mt-[26px] rounded-[8px] bg-[#F6F8FB] border border-[#E0E0E0]">
 	<input
